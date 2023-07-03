@@ -5,7 +5,16 @@
 
 body {
   padding: 10px;
+  background-color: #00f;
 }
+
+code, button[type="submit"] {
+  background-color: #0f0;
+}
+
+button[type="submit"]:hover, input[type="text"], textarea { 
+  background-color: #ff0; 
+} 
 
 .issue {
   margin: 20px;
